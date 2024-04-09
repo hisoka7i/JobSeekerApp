@@ -1,0 +1,14 @@
+package com.hisoka7i.jobListing;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class JobListingApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(JobListingApplication.class, args);
+		System.out.println("Our spring application is working!!");
+	}
+
+}
